@@ -1,0 +1,63 @@
+.article_mondes
+{
+    display: flex;
+    margin-bottom:5%;
+    margin-top: 5%;
+}
+
+.div_infos_mondes
+{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div_img_mondes
+{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: center;
+    height: 25em;
+}
+
+.logo_monde
+{
+    position: relative;
+    top:-5%;
+    height: 100%;
+}
+
+.dflex_persos
+{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+
+.dflex_persos img
+{
+    border-radius: 50%;
+    height: 4em;
+}
+
+.dflex_persos div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+aside 
+{
+    width: 10%;
+}
+
+#map_desc
+{
+    width: 45%;
+}
+

@@ -1,0 +1,780 @@
+/* Fichier CSS Dédié au Responsive */
+
+@media (max-width: 576px) 
+{
+
+    /* ------ Général ------*/
+
+    header
+    {
+        height: 9%;
+    }
+
+    .img_page
+    {
+        margin-top: 10%;
+    }
+
+    h3 
+    {
+        font-size: 0.5em;
+    }
+
+
+    .a_button
+    {
+        width: 7em;
+        height: 3.5em;
+        font-size: 0.6em;
+    }
+    #logo 
+    {
+        width: 30%;
+        margin-top: 6%;
+    }
+    nav ul li
+    {
+        list-style: none;
+        font-size: 0.4em;
+    }
+
+    nav
+    {
+        padding-left: 60%;
+        width: 20%;
+    }
+    
+
+    h4 
+    {
+        font-size: 0.5em;
+    }
+
+    p 
+    {
+        font-size: 0.5em;
+    }
+
+    h2 
+    {
+        font-size: 0.8em;
+    }
+
+    h3 {
+        font-size: 0.8em;
+    }
+
+    footer, footer a
+    {
+        font-size: 0.5em;
+    }
+
+    footer h3 
+    {
+        font-size: 0.8em;
+    }
+
+    footer 
+    {
+        height: 18%;
+    }
+
+    .align_center
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .presentation_txt
+    {
+        width: 100%;
+    }
+
+    .dflex_column 
+    {
+        width: 100%;
+    }
+
+    .section_sujets 
+    {
+        margin-bottom: 10%;
+    }
+
+    aside 
+    {
+        font-size: 0.3em;
+        width: 25%;
+    }
+
+    /* ------ Accueil ------*/
+
+    #Menu
+    {
+        width: 90%;
+    }
+
+    #Menu img
+    {
+        width: 1.5em;
+        position: relative;
+        top: 3%;  
+    }
+
+    .VoirPlusButton
+    {
+        font-size: 0.6em;
+        line-height: 3.5em;
+        width: 6em;
+        height: 3em;
+    }
+
+    /* ------ Page Jeux ------ */
+
+    #aside_jeux
+    {
+        width: 15%;
+    }
+
+    .Infos 
+    {
+        width: 70%;
+    }
+
+    .section_with_aside
+    {
+        width: 70%;
+        margin-left: 20%;
+    }
+
+    .Infos_Jeux
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Infos_Jeux ul 
+    {
+        font-size: 0.4em;
+    }
+
+    iframe 
+    {
+        width: 90%;
+        height: auto;
+    }
+    aside ul
+    {
+        margin-left: 10%;
+    }
+
+    /* ------ histoire ------ */
+
+    .article_Histoire li
+    {
+        font-size: 0.5em;
+    }
+
+    .img_histoire_complementaires 
+    {
+        height: 2.2em;
+    }
+    .img_histoire_complementaires img 
+    {
+        border-radius: 10%;
+    }
+
+    /* ------ Personnages ------ */
+
+    table 
+    {
+        font-size: 0.5em;
+    }
+
+    .perso_img_div 
+    {
+        height: 8em;
+        margin-bottom: 3%;
+    }
+
+    h4 
+    {
+        font-size: 0.6em;
+    }
+
+    /* ------ Mondes ------ */
+
+    .div_img_mondes
+    {
+        height: 10em;
+    }
+
+    .aside_mondes
+    {
+        width: 15%;
+    }
+    .dflex_persos
+    {
+        gap: 1em;
+    }
+    .dflex_persos img
+    {
+        height: 3em;
+    }
+
+    .article_mondes 
+    {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #map_desc
+    {
+        width: 100%;
+    }
+
+    .div_infos_mondes
+    {
+        width: 90%;
+    }
+
+    /* Page Abonnement */
+    #email
+    {
+        width: 90%;
+        font-size: 0.8em;
+    }
+
+    #Sora_Abonnement
+    {
+        position:relative;
+        top: -30%;
+        right: -60%;
+    }
+
+    #Riku_Abonnement
+    {
+        position:relative;
+        top: -130%;
+        right: 60%;
+    }
+
+    #Abonnement
+    {
+        width: 60%;
+        height: 16em;
+        padding-top: 8%;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+
+    form 
+    {
+        font-size: 0.6em;
+    }
+
+    #Abonnement img 
+    {
+        width: 40%;
+    }
+
+
+}
+
+@media (min-width: 577px) and (max-width: 699px) 
+{
+    /* ------  Général ------ */
+
+    .img_page
+    {
+        margin-top: 8%;
+        width: 100%;
+    }
+
+    .a_button
+    {
+        width: 6.8em;
+        height: 3em;
+        font-size: 0.8em;
+        line-height: 2.9em;
+    }
+    #logo 
+    {
+        width: 20%;
+        margin-top: 4%;
+    }
+
+    nav 
+    {
+        padding-left: 60%;
+        width: 20%;
+    }
+
+    nav ul li
+    {
+        list-style: none;
+        font-size: 0.8em;
+    }
+
+    p 
+    {
+        font-size: 0.6em;
+    }
+
+    h2 
+    {
+        font-size: 1.2em;
+    }
+
+    footer, footer a
+    {
+        font-size: 0.8em;
+    }
+
+    h3 {
+        font-size: 0.8em;
+    }
+
+    footer h3 
+    {
+        font-size: 1em;
+    }
+
+    aside 
+    {
+        font-size: 0.6em;
+        width: 20%;
+    }
+
+    /* ------ Accueil ------*/
+
+    #Menu
+    {
+        width: 82%;
+    }
+
+    #Menu img
+    {
+        width: 1.5em;
+        position: relative;
+        top: 3%;  
+    }
+
+    .VoirPlusButton
+    {
+        font-size: 0.8em;
+    }
+
+    /* ------ Page Jeux ------*/
+
+    #aside_jeux
+    {
+        width: 15%;
+    }
+
+    .Infos 
+    {
+        width: 100%;
+    }
+
+    .section_with_aside
+    {
+        width: 75%;
+        margin-left: 15%;
+    }
+
+    .Infos_Jeux
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Infos_Jeux ul 
+    {
+        font-size: 0.7em;
+    }
+
+    iframe 
+    {
+        width: 90%;
+        height: auto;
+    }
+
+    /* ------ histoire ------ */
+    .article_Histoire li
+    {
+        font-size: 0.8em;
+    }
+
+    .img_histoire_complementaires 
+    {
+        height: 4.5em;
+    }
+
+    /* ------ Personnages ------ */
+
+    table 
+    {
+        font-size: 0.6em;
+    }
+
+    .perso_img_div 
+    {
+        height: 10em;
+        margin-bottom: 3%;
+    }
+
+    h4 
+    {
+        font-size: 0.8em;
+    }
+
+    /* ------ Mondes ------ */
+
+    .div_img_mondes
+    {
+        height: 10em;
+    }
+
+    .aside_mondes
+    {
+        width: 10%;
+    }
+
+    
+    .dflex_persos img
+    {
+        height: 3em;
+    }
+
+    /* Page Abonnement */
+    #email
+    {
+        width: 100%;
+    }
+
+    #Sora_Abonnement
+    {
+        position:relative;
+        top: -30%;
+        right: -60%;
+    }
+
+    #Riku_Abonnement
+    {
+        position:relative;
+        top: -130%;
+        right: 70%;
+    }
+
+    #Abonnement
+    {
+        width: 40%;
+        height: 20em;
+    }
+
+    form 
+    {
+        font-size: 0.8em;
+    }
+
+    #Abonnement img 
+    {
+        width: 40%;
+    }
+
+    
+}
+
+@media (min-width: 700px) and (max-width: 992px) 
+{
+
+    /* ------  Général ------ */
+
+    .img_page
+    {
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    .a_button
+    {
+        width: 6.5em;
+        height: 3em;
+        font-size: 1em;
+        line-height: 3em;
+    }
+    #logo 
+    {
+        width: 20%;
+        margin-top: 4%;
+    }
+
+    nav 
+    {
+        padding-left: 60%;
+        width: 20%;
+    }
+
+    nav ul li
+    {
+        list-style: none;
+        font-size: 0.8em;
+    }
+
+    p 
+    {
+        font-size: 0.8em;
+    }
+
+    h2 
+    {
+        font-size: 1.2em;
+    }
+
+    h3 
+    {
+        font-size: 1em;
+    }
+
+    footer, footer a
+    {
+        font-size: 0.8em;
+    }
+
+    footer h3 
+    {
+        font-size: 1em;
+    }
+
+    aside 
+    {
+        font-size: 0.8em;
+        width: 15%;
+    }
+
+
+    /* ------ Accueil ------*/
+
+    #Menu
+    {
+        width: 65%;
+    }
+
+    #Menu img
+    {
+        width: 1.5em;
+        position: relative;
+        top: 3%;  
+    }
+
+    .VoirPlusButton
+    {
+        font-size: 0.8em;
+    }
+
+    /* ------ Page Jeux ------ */
+
+    .Infos 
+    {
+        width: 100%;
+
+    }
+
+    .section_with_aside
+    {
+        width: 75%;
+        margin-left: 15%;
+    }
+
+    .Infos_Jeux
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Infos_Jeux ul 
+    {
+        font-size: 0.7em;
+    }
+
+    iframe 
+    {
+        width: 90%;
+        height: auto;
+    }
+
+    /* ------ histoire ------ */
+
+    .article_Histoire li
+    {
+        font-size: 0.8em;
+    }
+
+    .img_histoire_complementaires 
+    {
+        height: 6em;
+    }
+
+    /* ------ Personnages ------ */
+
+    table 
+    {
+        font-size: 0.8em;
+    }
+
+    .perso_img_div 
+    {
+        height: 15em;
+        margin-bottom: 3%;
+    }
+
+    /* ------ Mondes ------ */
+
+    .div_img_mondes
+    {
+        height: 15em;
+    }
+
+    /* Page Abonnement */
+
+    #email
+    {
+        width: 90%;
+    }
+
+    #Sora_Abonnement
+    {
+        position:relative;
+        top: -50%;
+        right: -120%;
+    }
+
+    #Riku_Abonnement
+    {
+        position:relative;
+        top: -150%;
+        right: 120%;
+    }
+
+    #Abonnement
+    {
+        width: 30%;
+        height: 20em;
+    }
+
+    form 
+    {
+        font-size: 0.8em;
+    }
+
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) 
+{
+
+
+    /* ------ Général ------ */
+
+    .a_button
+    {
+        width: 6.8em;
+        height: 3.5em;
+        font-size: 1em;
+    }
+    #logo 
+    {
+        width: 20%;
+        margin-top: 3%;
+    }
+    nav ul li
+    {
+        list-style: none;
+        font-size: 0.8em;
+    }
+
+    p 
+    {
+        font-size: 1.2em;
+    }
+
+    h2 
+    {
+        font-size: 1.5em;
+    }
+
+    footer, footer a
+    {
+        font-size: 0.9em;
+    }
+
+    footer h3 
+    {
+        font-size: 1em;
+    }
+
+    footer p 
+    {
+        font-size: 0.8em;
+    }
+
+    iframe 
+    {
+        height: auto;
+    }
+
+    /* ------ Accueil ------*/
+
+    #Menu
+    {
+        width: 60%;
+    }
+
+    #Menu img
+    {
+        width: 3em;
+        position: relative;
+        top: 4%;  
+    }
+
+    .VoirPlusButton
+    {
+        font-size: 0.8em;
+    }
+
+    /* ------ Page Jeux ------ */
+
+    .Infos 
+    {
+        width: 45%;
+    }
+
+    .section_with_aside
+    {
+        width: 75%;
+        margin-left: 10%;
+    }
+
+    /* Page Abonnement */
+
+    #Sora_Abonnement
+    {
+        position:relative;
+        top: -60%;
+        right: -120%;
+    }
+
+    #Riku_Abonnement
+    {
+        position:relative;
+        top: -165%;
+        right: 120%;
+    }
+
+    #Abonnement
+    {
+        width: 30%;
+    }
+    
+}
+  

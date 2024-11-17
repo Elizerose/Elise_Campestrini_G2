@@ -1,0 +1,70 @@
+
+/* CSS de la page Accueil */
+
+#video_home 
+{
+    width: 100%;
+    z-index: 1;
+}
+
+#Menu li
+{
+    list-style: none;
+}
+
+
+/* Menu */
+
+#Menu
+{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#Menu img
+{
+    width: 3em;
+    position: relative;
+    top: 4%;  
+
+}
+
+#Menu li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personnages_accueil_photo
+{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.VoirPlusButton
+{
+    margin-top: 8%;
+    width: 7em;
+    height: 3em;
+    font-size: 1em;
+    line-height:3em;
+}
+
+.img_sujets
+{
+    width: 50%;
+}
+
+.img_persos_accueil
+{
+    width: 30%;
+}
+
+.img_mondes_accueil
+{
+    width: 22%;
+}

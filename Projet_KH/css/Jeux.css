@@ -1,0 +1,53 @@
+
+/* CSS de la Page Jeux */
+
+.article_jeux
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.Infos_Jeux
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Infos
+{
+    width: 40%;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 5%;
+}
+
+
+.screenshot_div
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+
+.screenshot_div img
+{
+    width: 22%;
+}
+
+.Logo_game
+{
+    width: 30%;
+    margin-bottom: 3%;
+}
+
+aside 
+{
+    width: 10%;
+}

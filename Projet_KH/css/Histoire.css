@@ -1,0 +1,44 @@
+.article_Histoire
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+    width: 90%;
+}
+
+.article_Histoire img 
+{
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 1em;
+}
+
+.img_histoire_complementaires 
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 8em;
+    justify-content: center;
+    margin: 5%;
+    width: 100%;
+    gap: 2%;
+}
+
+.img_histoire_complementaires img
+{
+    height: 90%;
+    width: auto;
+}
+
+aside 
+{
+    width: 15%;
+}
+
+.section_with_aside
+{
+    width: 60%;
+}
