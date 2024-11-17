@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Abonnement.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="img/kh_icon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kingdom Hearts Universe</title>
+</head>
+<body>
+
+    <header>
+
+        <img src="img/Kingdom-hearts-franchise-logo.png" alt="logo de Kingdom Hearts" id="logo">
+
+        <nav>
+
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">S'abonner</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <img src="img/Abonnement/banner.png" alt="bannière" class="img_page">
+
+        <h2 style="margin-top: 2%;">Restez informé</h2>
+
+        <p style="color: gray; width: 70%;">Restez informé ds nouveautés : nouveaux personnages, nouveaux mondes, sorties de nouveaux jeux et toute autre mises à jour du site !</p>
+
+        <section id="Abonnement">
+
+            <h3>S'abonner aux newsletters</h3>
+
+            <form action="#"  method="post">
+                
+                <input type="email" id="email" name="email" placeholder="Adresse Mail" required>
+
+                <!-- Checkbox des sujets -->
+                <div>
+                    <input type="radio" id="Choisir" name="sujets" value="Choisir">
+                    <label for="Choisir">Choisir des sujets</label>
+
+                    <br><br>
+
+                    <div id="choix_sujets">
+                        <input type="checkbox" id="Jeux" name="Jeux" value="Jeux">
+                        <label for="Jeux"> Nouveaux Jeux </label>
+                        <br>
+                        <input type="checkbox" id="Histoire" name="Histoire" value="Histoire">
+                        <label for="Histoire"> Histoire </label>
+                        <br>
+                        <input type="checkbox" id="Personnages" name="Personnages" value="Personnages">
+                        <label for="Personnages"> Personnages </label>
+                        <br>
+                        <input type="checkbox" id="Mondes" name="Mondes" value="Mondes">
+                        <label for="Mondes"> Mondes </label>
+                    </div>
+
+                    <br>
+
+                    <input type="radio" id="Tout" name="sujets" value="tout">
+                    <label for="Tout">Toutes mises à jour du site</label>
+
+                </div>
+
+                <button type="submit" id="bouton_abonnement">S'abonner</button>
+
+            </form>
+
+            <img src="img/Abonnement/Sora_Falling.png" alt="Image de Sora" id="Sora_Abonnement">
+            <img src="img/Abonnement/Riku_Falling.png" alt="Image de Riku" id="Riku_Abonnement">
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div>
+            <h3>Contacts</h3>
+            <p>elizerosecampestrini@gmail.com</p>
+            <br>
+            <ul id="contact_list">
+                <li><a href="https://elisecampestrini.alwaysdata.net/" target="_blank"><i class="fa-solid fa-briefcase" style="color: #ffffff;"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/elise-campestrini-152a34293/?originalSubdomain=fr"  target="_blank"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a></li>
+                <li><a href="https://elringdingdong.itch.io/" target="_blank"><i class="fa-brands fa-itch-io" style="color: #ffffff;"></i></a></li>
+            </ul>
+        </div>
+
+        <p> Site crée par Elise Campestrini (G2) 
+            <br>
+            Axe Souhaité : Game Programming
+        </p>
+
+        <div>
+            <h3>Liens utiles</h3>
+            <ul>
+                <li><a href="https://www.kingdomhearts.com/home/fr/#social" target="_blank">Page officielle Kingdom Hearts</a></li>
+                <li><a href="https://fr.store.square-enix-games.com/search.php?search_query=kingdom%20hearts&section=product" target="_blank">Square Enix (boutique)</a></li>
+                <li><a href="https://www.khdestiny.fr/kingdom-hearts.html" target="_blank">Kingdom Hearts Destiny</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+</html>
+
+<!-- J'aurais pu faire des carousels et mettre des anims en javascript mais comme c'était pas demandé je ne suis pas allé plus loin -->
+
+<!-- Pour mettre les icons du footer : -->
+<script src="https://kit.fontawesome.com/c2ae8767dc.js" crossorigin="anonymous"></script> 
